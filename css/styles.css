@@ -11,9 +11,77 @@
     z-index: 1000;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-block: 20px;
+    width: 100%;
+}
+
+.menu-desplazamiento {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    justify-content: flex-start; /* Para que los items no se desborden */
+    flex-wrap: wrap; /* Para que los items se ajusten si el espacio es pequeño */
+    width: auto; /* Asegura que no ocupen más de lo necesario */
+    
+}
+
+.menu-items li {
+    margin: 0 15px;
+}
+
 .header-letras {
     color: #ffffff;
-    margin: 22px;
-    font-size: 16px;
+    text-decoration: none;
+    font-size: clamp(14px, 2vw, 18px);
     font-family: "Roboto", sans-serif;
+    margin-right: 32px;
+}
+
+/* Responsive para dispositivos móviles */
+@media (max-width: 768px) {
+    .menu-desplazamiento {
+        display: block;
+        
+    }
+
+    /* Menu items ocultos inicialmente */
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        background-color: #2A1630;
+        position: absolute;
+        top: 60px;
+        right: 0; /* Ajustado para que el menú aparezca a la derecha */
+        width: 250px; /* Ajuste el ancho del menú */
+        box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Mostrar los items cuando el menú se activa */
+    .menu-items.show {
+        display: flex;
+    }
+
+    .menu-items li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-letras {
+        font-size: clamp(12px, 3vw, 16px);
+    }
 }
