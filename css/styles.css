@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
 body{
     background-color: black;
 }
@@ -14,7 +20,6 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
     z-index: 1000;
 }
 
@@ -106,20 +111,19 @@ body{
 
 @media (max-width: 768px) {
     .portada {
-        height: 65vw; 
-        background-position: center 15vw;  
+        height: 130vw;
+        background-position: center 0vw;  
+        background-image: url('../assets/portada_imagen_movil.png');
     }
 }
 
 @media (max-width: 480px) {
     .portada {
-        height: 75vw; 
-        background-position: center 20vw;  
+        height: 150vw;
+        background-position: center 5vw;  
+        background-image: url('../assets/portada_imagen_movil.png');
     }
 }
-
-
-
 
 .portada-nombre {
     color: white;
@@ -157,43 +161,27 @@ body{
 
 @media (max-width: 768px) {
     .portada-nombre {
-        font-size: 10vw;  
-        left: 50%; 
-        top: 15vh;  
-    }
+        font-size: 14vw;  
+        left: 6vw; 
+        top: 43vw;
 
-    .portada-descripcion {
-        font-size: 5vw; 
-        top: 35vh; 
-        left: 50%;  
-        transform: translateX(-50%);
-    }
-
-    .portada-imagen-avatar img {
-        width: 40vw;  
-        top: 20vh;  
-    }
-}
-
-@media (max-width: 480px) {
-    .portada-nombre {
-        font-size: 12vw;
-        left: 50%;
-        top: 20vh;
     }
 
     .portada-descripcion {
         font-size: 6vw; 
-        top: 40vh;
-        left: 50%;
+        top: 78vw;   
         transform: translateX(-50%);
+        width: 90vw;
+
     }
 
     .portada-imagen-avatar img {
-        width: 50vw; 
-        top: 25vh; 
+        width: 22vw;
+        top: 10vw;
+        left: 48vw;
     }
 }
+
 
 /*--------------------------------------------------------------------------------------- */
 /*ACERCA DE MI - BODY */
@@ -357,7 +345,7 @@ body{
     color: #ffffff;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    margin-top: 7vw; /* Ajusta según sea necesario */
+    margin-top: 7vw;
 }
 
 .card-description {
