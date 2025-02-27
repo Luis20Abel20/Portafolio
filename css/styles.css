@@ -195,12 +195,12 @@ body{
     }
 }
 
-
 /*--------------------------------------------------------------------------------------- */
 /*ACERCA DE MI - BODY */
+
 .acerca-de-mi{
     width: 100vw;
-    height: 100vw;
+    height: 60vw; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +217,7 @@ body{
     width: 26vw; 
     height: 7vw; 
     position: relative;
-    top: -40vw; 
+    top: -20vw; 
     left: -33vw;  
     display: flex;
     align-items: center;
@@ -259,7 +259,7 @@ body{
 .flecha {
     position: absolute;
     top: 7vw;
-    left: -5vw;
+    margin-left: -100vw;
     transform: translateX(-50%);
     z-index: 10;
 }
@@ -283,5 +283,46 @@ body{
     top: 3vw;
     left: 1vw;
     transform: translateY(-50%);
+}
+
+.palito-2 {
+    background-color: white; 
+    width: 90vw;
+    height: 1vw;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 48vw;
+}
+
+/*--------------------------------------------------------------------------------------- */
+/*PROYECTOS - BODY */
+
+.proyectos{
+    width: 100vw;
+    height: 100vw; 
+    display: flex;
+    background-color: rgba(26,2,44,255);
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.proyectos-subtitulo-imagen img {
+    width: 35vw;
+    height: auto;
+    top: 7vw;
+    margin-left: 1vw;
+}
+
+.proyectos_subtitulo_letra {
+    color: #D1C9D7;
+    font-family: 'Instrument Serif', serif;
+    font-weight: normal; 
+    font-size: 3vw;
+    position: relative;
+    top: -16vw;
+    margin-left: 4vw;
 }
 
