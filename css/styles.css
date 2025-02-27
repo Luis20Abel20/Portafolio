@@ -1,3 +1,10 @@
+body{
+    background-color: black;
+}
+
+/*--------------------------------------------------------------------------------------- */
+/*BARRA DE NAVEGACIÓN - HEADER */
+
 .header-menu {
     background-color: #2A1630;
     color: white;
@@ -34,9 +41,9 @@
     padding: 0;
     display: flex;
     margin: 0;
-    justify-content: flex-start; /* Para que los items no se desborden */
-    flex-wrap: wrap; /* Para que los items se ajusten si el espacio es pequeño */
-    width: auto; /* Asegura que no ocupen más de lo necesario */
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+    width: auto;
     
 }
 
@@ -52,26 +59,23 @@
     margin-right: 32px;
 }
 
-/* Responsive para dispositivos móviles */
 @media (max-width: 768px) {
     .menu-desplazamiento {
         display: block;
         
     }
 
-    /* Menu items ocultos inicialmente */
     .menu-items {
         display: none;
         flex-direction: column;
         background-color: #2A1630;
         position: absolute;
         top: 60px;
-        right: 0; /* Ajustado para que el menú aparezca a la derecha */
-        width: 250px; /* Ajuste el ancho del menú */
+        right: 0;
+        width: 250px;
         box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    /* Mostrar los items cuando el menú se activa */
     .menu-items.show {
         display: flex;
     }
@@ -84,4 +88,43 @@
     .header-letras {
         font-size: clamp(12px, 3vw, 16px);
     }
+}
+
+/*--------------------------------------------------------------------------------------- */
+/*PORTADA - BODY */
+
+.portada {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/portada_imagen.png');
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+}
+
+.portada-nombre {
+    color: white;
+    font-size: 7rem; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    text-transform: uppercase;
+    position: relative;
+    top: -80px;
+    left: 340px;
+    text-shadow: 
+        4px 4px 0 rgba(0, 0, 0, 0.5),  
+        -12px 6px 0 rgba(117, 94, 136, 1);
+}
+
+.portada-descripcion {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 400;
+    position: relative;
+    top: -115px; 
+    left: 340px; 
 }
