@@ -316,4 +316,70 @@ body{
     z-index: 12;
 }
 
+.proyectos-card-1 {
+    padding: 2vw;
+    background-color: transparent;
+    border: 0.5vw solid #381F4A;
+    height: 40vw;
+    border-radius: 3vw;
+    width: 23vw;
+    top: 11vw;
+    position: absolute;
+    left: 7vw;
+}
+
+.proyectos-card-2 {
+    padding: 2vw;
+    background-color: transparent;
+    border: 0.5vw solid #381F4A;
+    height: 40vw;
+    border-radius: 3vw;
+    width: 23vw;
+    top: -0.3vw;
+    position: absolute;
+    left: 30vw;
+}
+
+.proyectos-card-3 {
+    padding: 2vw;
+    background-color: transparent;
+    border: 0.5vw solid #381F4A;
+    height: 40vw;
+    border-radius: 3vw;
+    width: 23vw;
+    top: -0.3vw;
+    position: absolute;
+    left:30vw;
+}
+
+.card-description-bold {
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin-top: 7vw; /* Ajusta según sea necesario */
+}
+
+.card-description {
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.card-description-bold-2 {
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
 
