@@ -8,7 +8,7 @@ body{
 .header-menu {
     background-color: #2A1630;
     color: white;
-    padding: 1vw;  /* Cambiado de vh a vw */
+    padding: 1vw; 
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -22,7 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-block: 2vw;  /* Cambiado de vh a vw */
+    padding-block: 2vw; 
     width: 100%;
 }
 
@@ -67,7 +67,7 @@ body{
         flex-direction: column;
         background-color: #2A1630;
         position: absolute;
-        top: 10vw;  /* Cambiado de vh a vw */
+        top: 10vw; 
         right: 2vw;
         width: 80vw;
         box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.1);
@@ -78,7 +78,7 @@ body{
     }
 
     .menu-items li {
-        padding: 2vw;  /* Cambiado de vh a vw */
+        padding: 2vw;
         text-align: center;
     }
 
@@ -93,28 +93,28 @@ body{
 /*PORTADA - BODY */
 
 .portada {
-    width: 100%;
-    height: 63vw;  /* Ajustamos la altura en función del ancho */
+    width: 100vw;
+    height: 64vw; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('../assets/portada_imagen.png');
     background-size: cover;
-    background-position: center 3vw;  /* Mueve la imagen más abajo */
+    background-position: center 3vw;
     background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
     .portada {
-        height: 65vw;  /* Ajustamos la altura en pantallas más pequeñas */
-        background-position: center 15vw;  /* Mueve la imagen más abajo */
+        height: 65vw; 
+        background-position: center 15vw;  
     }
 }
 
 @media (max-width: 480px) {
     .portada {
-        height: 75vw;  /* Ajustamos la altura aún más en pantallas muy pequeñas */
-        background-position: center 20vw;  /* Mueve la imagen más abajo */
+        height: 75vw; 
+        background-position: center 20vw;  
     }
 }
 
@@ -155,55 +155,52 @@ body{
     transform: translateX(-50%); 
 }
 
-/* MEDIA QUERY PARA MÁXIMA ANCHURA DE 768PX (MÓVILES Y TABLETAS) */
 @media (max-width: 768px) {
     .portada-nombre {
-        font-size: 10vw;  /* Ajustar tamaño en dispositivos pequeños */
-        left: 50%;  /* Centrar el nombre */
-        top: 15vh;  /* Ajustar la posición */
+        font-size: 10vw;  
+        left: 50%; 
+        top: 15vh;  
     }
 
     .portada-descripcion {
-        font-size: 5vw;  /* Ajustar tamaño de la descripción */
-        top: 35vh;  /* Ajustar posición */
-        left: 50%;  /* Centrado en pantallas pequeñas */
+        font-size: 5vw; 
+        top: 35vh; 
+        left: 50%;  
         transform: translateX(-50%);
     }
 
     .portada-imagen-avatar img {
-        width: 40vw;  /* Hacer la imagen un poco más grande en pantallas pequeñas */
-        top: 20vh;  /* Ajustar posición de la imagen */
+        width: 40vw;  
+        top: 20vh;  
     }
 }
 
-/* MEDIA QUERY PARA MÁXIMA ANCHURA DE 480PX (MÓVILES PEQUEÑOS) */
 @media (max-width: 480px) {
     .portada-nombre {
-        font-size: 12vw;  /* Ajustar tamaño aún más */
+        font-size: 12vw;
         left: 50%;
         top: 20vh;
     }
 
     .portada-descripcion {
-        font-size: 6vw;  /* Ajustar tamaño de la descripción */
+        font-size: 6vw; 
         top: 40vh;
         left: 50%;
         transform: translateX(-50%);
     }
 
     .portada-imagen-avatar img {
-        width: 50vw;  /* Hacer la imagen aún más grande */
-        top: 25vh;  /* Ajustar posición */
+        width: 50vw; 
+        top: 25vh; 
     }
 }
-
 
 
 /*--------------------------------------------------------------------------------------- */
 /*ACERCA DE MI - BODY */
 .acerca-de-mi{
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +208,80 @@ body{
     background-size: cover;
     background-position: center 30%;
     background-repeat: no-repeat;
+    position: relative;
 }
 
+.cuadro-1 {
+    background-color: rgba(116,91,135,255);
+    color: white; 
+    width: 26vw; 
+    height: 7vw; 
+    position: relative;
+    top: -40vw; 
+    left: -33vw;  
+    display: flex;
+    align-items: center;
+    z-index: 2;
+     
+}
 
+.cuadro-1-letras {
+    font-size: 2vw;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 650;
+    margin: 0;
+    padding-left: 5vw;
+}
+
+.cuadro-2 {
+    background-color: #381F4A; 
+    width: 52vw; 
+    height: 17vw;
+    position: absolute;
+    top: 12vw; 
+    left: 4vw;
+    z-index: 1;
+    color: #D1C9D7;
+    padding-top: 5vw;
+    padding-right: 3vw;
+    padding-bottom: 2vw;
+
+}
+
+.cuadro-2-letras {
+    font-size: 2vw;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 650;
+    margin: 0;
+    padding-left: 5vw;
+}
+
+.flecha {
+    position: absolute;
+    top: 7vw;
+    left: -5vw;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.flecha::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 3vw solid transparent; 
+    border-bottom: 3vw solid transparent;
+    border-left: 3vw solid black;
+    position: absolute;
+    top: 0;
+    left: 4vw;
+}
+
+.palito {
+    width: 4vw;
+    height: 1.5vw;
+    background-color: black;
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+    transform: translateY(-50%);
+}
 
