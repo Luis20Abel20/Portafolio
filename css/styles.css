@@ -518,6 +518,23 @@ body{
     
 }
 
+@media (max-width: 768px) {
+    .tecnologias {
+        width: 100vw !important;
+        height: 60vw !important; /* Ajusta la altura para pantallas pequeñas */
+        background-position: center 50% !important; /* Ajusta la posición de fondo */
+    }
+    .tecnologias-card img {
+        width: 84vw !important; /* Ajusta el tamaño de la imagen para pantallas móviles */
+        height: 40vw !important; /* Ajusta la altura de la imagen para distorsionarla */
+        top: 8vw !important; /* Ajusta la posición superior */
+        left: 5vw !important; /* Ajusta la posición izquierda */
+        border-radius: 2vw !important; /* Hace el borde un poco más redondeado */
+        object-fit: fill !important; /* Distorsiona la imagen para llenar el contenedor */
+    }
+    
+}
+
 .tecnologias-card img {
     width: 84vw;
     height: auto;
