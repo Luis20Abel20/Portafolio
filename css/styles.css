@@ -282,6 +282,100 @@ body{
     position: relative;
 }
 
+@media (max-width: 768px) {
+    .proyectos {
+        height: 215vw !important; 
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: center !important; 
+        justify-content: center !important;
+    }
+    .proyectos-card-1 {
+        padding: 2vw !important;
+        background-color: transparent !important;
+        border: 0.5vw solid #381F4A !important;
+        height: 43vw !important;
+        border-radius: 3vw !important;
+        width: 39vw !important;
+        top: 20vw !important;
+        position: absolute !important;
+        left: 26vw !important;
+    }
+    .proyectos-card-2 {
+        padding: 2vw !important;
+        background-color: transparent !important;
+        border: 0.5vw solid #381F4A !important;
+        height: 43vw !important;
+        border-radius: 3vw !important;
+        width: 39vw !important;
+        top: 86vw !important;
+        position: absolute !important;
+        left: 26vw !important;
+    }
+    .proyectos-card-3 {
+        padding: 2vw !important;
+        background-color: transparent !important;
+        border: 0.5vw solid #381F4A !important;
+        height: 43vw !important;
+        border-radius: 3vw !important;
+        width: 39vw !important;
+        top: 158vw !important;
+        position: absolute !important;
+        left: 26vw !important;
+    }
+    .proyectos_imagen_1 img {
+        width: 30vw !important; 
+        height: auto;
+        top: 10vw !important;
+        left: 33vw !important;
+        position: absolute;
+        z-index: 12;
+        border-radius: 3vw;
+    }
+
+    .proyectos_imagen_2 img {
+        width: 30vw !important; 
+        height: auto;
+        top: 78vw !important; 
+        left: 33vw !important;
+        position: absolute;
+        z-index: 12;
+        border-radius: 3vw;
+    }
+
+    .proyectos_imagen_3 img {
+        width: 30vw !important; 
+        height: auto;
+        top: 140vw !important; 
+        left: 33vw !important;
+        position: absolute;
+        z-index: 12;
+        border-radius: 3vw;
+    }
+
+    .card-description {
+        font-size: 2vw !important; /* Aumenta el tamaño de la fuente */
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .card-description-bold {
+        font-size: 2vw !important; /* Aumenta el tamaño de la fuente */
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        margin-top: 7vw;
+    }
+    .card-description-bold-2 {
+        font-size: 2vw !important; /* Aumenta el tamaño de la fuente */
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+    }
+
+
+}
+
 .proyectos-subtitulo-imagen img {
     width: 35vw;
     height: auto;
@@ -328,9 +422,9 @@ body{
     height: 40vw;
     border-radius: 3vw;
     width: 23vw;
-    top: -0.3vw;
+    top: 11vw;
     position: absolute;
-    left: 30vw;
+    left: 37.5vw;
 }
 
 .proyectos-card-3 {
@@ -340,9 +434,9 @@ body{
     height: 40vw;
     border-radius: 3vw;
     width: 23vw;
-    top: -0.3vw;
+    top: 11vw;
     position: absolute;
-    left:30vw;
+    left: 68vw;
 }
 
 .card-description-bold {
@@ -776,7 +870,7 @@ body{
     width: 6vw;
     height: auto;
     top: 15vw;
-    left: 5vw;
+    left: 3vw;
     position: absolute;
     z-index: 12;
 }
@@ -784,7 +878,7 @@ body{
     width: 6vw;
     height: auto;
     top: 14.2vw;
-    left: 27vw;
+    left: 25vw;
     position: absolute;
     z-index: 12;
 }
@@ -792,7 +886,7 @@ body{
     width: 6vw;
     height: auto;
     top: 15.2vw;
-    left: 49vw;
+    left: 47vw;
     position: absolute;
     z-index: 12;
 }
@@ -800,7 +894,7 @@ body{
     width: 6vw;
     height: auto;
     top: 16vw;
-    left: 71vw;
+    left: 69vw;
     position: absolute;
     z-index: 12;
 }
@@ -811,7 +905,7 @@ body{
     font-weight: normal;
     font-style: normal;
     font-size: 2.5vw;
-    margin-left: 11vw;
+    margin-left: 9vw;
     margin-top: 17vw;
     position: absolute;
 }
@@ -821,7 +915,7 @@ body{
     font-weight: normal;
     font-style: normal;
     font-size: 2.5vw;
-    margin-left: 33vw;
+    margin-left: 31vw;
     margin-top: 17vw;
     position: absolute;
 }
@@ -831,7 +925,7 @@ body{
     font-weight: normal;
     font-style: normal;
     font-size: 2.5vw;
-    margin-left: 55vw;
+    margin-left: 53vw;
     margin-top: 17vw;
     position: absolute;
 }
@@ -841,7 +935,7 @@ body{
     font-weight: normal;
     font-style: normal;
     font-size: 2.5vw;
-    margin-left: 77vw;
+    margin-left: 75vw;
     margin-top: 17vw;
     position: absolute;
 }
