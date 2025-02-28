@@ -414,7 +414,7 @@ body{
 
 .tecnologias {
     width: 100vw;
-    height: 30vw;
+    height: 28vw;
     background-color: #3F2651;
     background-size: cover;
     background-position: center 30%;
@@ -532,7 +532,7 @@ body{
 .cursos-certificaciones {
     width: 100vw;
     height: 23vw;  
-    background-color: #90d338;
+    background-color: #3F2651;
     display: flex;  
     position: relative;  
     z-index: 0; 
@@ -635,6 +635,218 @@ body{
     border-radius: 1vw;
     z-index: 3;
 }
+
+/*--------------------------------------------------------------------------------------- */
+/*ESTUDIOS - BODY */
+
+.estudios {
+    width: 100vw;
+    height: 23vw;  
+    background-color: #3F2651;
+    display: flex;  
+    position: relative;  
+    z-index: 0; 
+}
+.estudios-card img {
+    width: 84vw;
+    height: auto;
+    top: 2vw;
+    left: 7vw;
+    position: absolute;
+    border-radius: 1vw;
+}
+.estudios-flecha img {
+    width: 10vw;
+    height: auto;
+    top: 0vw;
+    left: 0vw;
+    position: absolute;
+    z-index: 12;
+}
+.estudios-card-titulo {
+    font-size: 2vw;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 650;
+    margin: 0; 
+    padding-left: 9vw;
+    position: absolute;
+    top: 2.5vw;
+    z-index: 1; 
+}
+.estudios-description {
+    font-size: 1.5vw;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    margin-top: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 12vw;
+    text-align: center;
+    line-height: 1.6;
+    position: absolute;
+    z-index: 10;
+    top: 6vw;
+    left: 6vw;
+}
+
+/*--------------------------------------------------------------------------------------- */
+/*EXPERIENCIA - BODY */
+
+.experiencia-laboral {
+    width: 100vw;
+    height: 23vw;  
+    background-color: #3F2651;
+    display: flex;  
+    position: relative;  
+    z-index: 0; 
+}
+.experiencia-card img {
+    width: 84vw;
+    height: auto;
+    top: 2vw;
+    left: 7vw;
+    position: absolute;
+    border-radius: 1vw;
+}
+.experiencia-flecha img {
+    width: 10vw;
+    height: auto;
+    top: 0vw;
+    left: 0vw;
+    position: absolute;
+    z-index: 12;
+}
+.experiencia-card-titulo {
+    font-size: 2vw;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 650;
+    margin: 0; 
+    padding-left: 9vw;
+    position: absolute;
+    top: 2.5vw;
+    z-index: 1; 
+}
+.experiencia-description {
+    font-size: 1.5vw;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    margin-top: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 12vw;
+    text-align: center;
+    line-height: 1.6;
+    position: absolute;
+    z-index: 10;
+    top: 6vw;
+    left: 6vw;
+}
+
+/*--------------------------------------------------------------------------------------- */
+/*CONTACTO - BODY */
+
+.contacto {
+    width: 100vw;
+    height: 23vw;  
+    background-color: #1A022C;
+    display: flex;  
+    position: relative;  
+    z-index: 0; 
+}
+
+.contacto-titulo{
+    color: #D1C9D7;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 5vw;
+    margin-left: 10vw;
+    margin-top: 3vw;
+    position: absolute;
+}
+
+.contacto-flecha img {
+    width: 10vw;
+    height: auto;
+    top: 2vw;
+    left: 0vw;
+    position: absolute;
+    z-index: 12;
+}
+
+.contacto-logo-x img {
+    width: 6vw;
+    height: auto;
+    top: 15vw;
+    left: 5vw;
+    position: absolute;
+    z-index: 12;
+}
+.contacto-logo-facebook img {
+    width: 6vw;
+    height: auto;
+    top: 14.2vw;
+    left: 27vw;
+    position: absolute;
+    z-index: 12;
+}
+.contacto-logo-instagram img {
+    width: 6vw;
+    height: auto;
+    top: 15.2vw;
+    left: 49vw;
+    position: absolute;
+    z-index: 12;
+}
+.contacto-logo-youtube img {
+    width: 6vw;
+    height: auto;
+    top: 16vw;
+    left: 71vw;
+    position: absolute;
+    z-index: 12;
+}
+
+.contacto-titulo-x{
+    color: #D1C9D7;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5vw;
+    margin-left: 11vw;
+    margin-top: 17vw;
+    position: absolute;
+}
+.contacto-titulo-facebook{
+    color: #D1C9D7;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5vw;
+    margin-left: 33vw;
+    margin-top: 17vw;
+    position: absolute;
+}
+.contacto-titulo-instagram{
+    color: #D1C9D7;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5vw;
+    margin-left: 55vw;
+    margin-top: 17vw;
+    position: absolute;
+}
+.contacto-titulo-youtube{
+    color: #D1C9D7;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5vw;
+    margin-left: 77vw;
+    margin-top: 17vw;
+    position: absolute;
+}
+
+
 
 
 
