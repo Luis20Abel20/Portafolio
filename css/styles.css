@@ -111,7 +111,7 @@ body{
 
 @media (max-width: 768px) {
     .portada {
-        height: 130vw;
+        height: 160vw;
         background-position: center 0vw;  
         background-image: url('../assets/portada_imagen_movil.png');
     }
@@ -155,32 +155,37 @@ body{
     object-fit: cover;
     position: absolute;
     top: 15vw; 
-    left: 27%; 
+    left: 27vw; 
     transform: translateX(-50%); 
 }
 
+
 @media (max-width: 768px) {
     .portada-nombre {
-        font-size: 14vw;  
-        left: 6vw; 
-        top: 43vw;
-
+        font-size: 12vw;  
+        left: 5vw; 
+        top: 60vw;
     }
 
     .portada-descripcion {
         font-size: 6vw; 
-        top: 78vw;   
+        top: 97vw;   
         transform: translateX(-50%);
-        width: 90vw;
-
+        width: 85vw;
+        text-align: center;
+        left: 49vw;
     }
 
     .portada-imagen-avatar img {
-        width: 22vw;
-        top: 10vw;
-        left: 48vw;
+        width: 20vw;
+        top: 27vw;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
+
+
+
 
 
 /*--------------------------------------------------------------------------------------- */
