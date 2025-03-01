@@ -1053,6 +1053,54 @@ body{
     z-index: 0; 
 }
 
+@media (max-width: 768px) {
+    .contacto {
+        width: 100vw !important;
+        height: 45vw !important; 
+        background-position: center 50% !important;
+    }
+    .contacto-logo-x img {
+        width: 10vw !important;
+        top: 15vw !important;
+        left: 2vw !important;
+    }
+    .contacto-logo-facebook img {
+        width: 10vw !important;
+        top: 14vw !important;
+        left: 45vw !important;
+    }
+    .contacto-logo-instagram img {
+        width: 10vw !important;
+        top: 31vw !important;
+        left: 2vw !important;
+    }
+    .contacto-logo-youtube img {
+        width: 10vw !important;
+        top: 32vw !important;
+        left: 45vw !important;
+    }
+    .contacto-titulo-x{
+        font-size: 4.5vw !important;
+        margin-left: 13vw !important;
+        margin-top: 18vw !important;
+    }
+    .contacto-titulo-facebook{
+        font-size: 4.5vw !important;
+        margin-left: 54vw !important;
+        margin-top: 18vw !important;
+    }
+    .contacto-titulo-instagram{
+        font-size: 4.5vw !important;
+        margin-left: 13vw !important;
+        margin-top: 33vw !important;
+    }
+    .contacto-titulo-youtube{
+        font-size: 4.5vw !important;
+        margin-left: 56vw !important;
+        margin-top: 33vw !important;
+    }
+}
+
 .contacto-titulo{
     color: #D1C9D7;
     font-family: 'Dancing Script', cursive;
