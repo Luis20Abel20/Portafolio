@@ -521,16 +521,67 @@ body{
 @media (max-width: 768px) {
     .tecnologias {
         width: 100vw !important;
-        height: 60vw !important; /* Ajusta la altura para pantallas pequeñas */
-        background-position: center 50% !important; /* Ajusta la posición de fondo */
+        height: 50vw !important; 
+        background-position: center 50% !important;
     }
     .tecnologias-card img {
-        width: 84vw !important; /* Ajusta el tamaño de la imagen para pantallas móviles */
-        height: 40vw !important; /* Ajusta la altura de la imagen para distorsionarla */
-        top: 8vw !important; /* Ajusta la posición superior */
-        left: 5vw !important; /* Ajusta la posición izquierda */
-        border-radius: 2vw !important; /* Hace el borde un poco más redondeado */
-        object-fit: fill !important; /* Distorsiona la imagen para llenar el contenedor */
+        width: 84vw !important; 
+        height: 40vw !important; 
+        top: 8vw !important; 
+        left: 7vw !important; 
+        border-radius: 2vw !important; 
+        object-fit: fill !important; 
+    }
+    .card-titulo {
+        font-size: 2.5vw !important; 
+        left: -1vw !important;
+        top: 12vw !important;
+    }
+
+    .logo-bootstrap img {
+        width: 11vw !important; 
+        top: 18vw !important;
+        left: 17vw !important; 
+    }
+    .logo-phyton img {
+        width: 11vw !important;
+        top: 17.5vw !important;
+        left: 42vw !important;
+    }
+    .logo-js img {
+        width: 11vw !important;
+        top: 17vw !important;
+        left: 67vw !important;
+    }
+    .logo-nodejs img {
+        width: 11vw !important;
+        top: 28vw !important;
+        left: 17vw !important;
+    }
+    .logo-html img {
+        width: 10vw !important;
+        top: 28vw !important;
+        left: 42.5vw !important;
+    }
+    .logo-react img {
+        width: 11vw !important;
+        top: 27vw !important;
+        left: 67vw !important;
+    }
+    .logo-mongodb img {
+        width: 9vw !important;
+        top: 38vw !important;
+        left: 31vw !important;
+    }
+    .logo-mysql img {
+        width: 8vw !important;
+        top: 39vw !important;
+        left: 57vw !important;
+    }
+    .tecnologias-flecha img {
+        width: 10vw !important;
+        top: 10vw !important;
+        left: 0vw !important;
     }
     
 }
@@ -649,6 +700,78 @@ body{
     z-index: 0; 
 }
 
+@media (max-width: 768px) {
+    .cursos-certificaciones {
+        width: 100vw !important;
+        height: 50vw !important; 
+        background-position: center 50% !important;
+    }
+    .cursos-card img {
+        width: 84vw !important; 
+        height: 40vw !important; 
+        top: 8vw !important; 
+        left: 7vw !important; 
+        border-radius: 2vw !important; 
+        object-fit: fill !important; 
+    }
+    .cursos-flecha img {
+        width: 10vw !important;
+        top: 10vw !important;
+        left: 0vw !important;
+    }
+    .cursos-card-titulo {
+        font-size: 2.5vw !important; 
+        left: -1vw !important;
+        top: 12vw !important;
+    }
+    .cursos-description {
+        font-size: 2.5vw !important;
+        font-family: 'Istok Web', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 15vw !important;
+        padding-right: 12vw !important;
+        top: 16vw !important;
+        left: 12vw !important;
+        text-align: justify !important; 
+    }
+    .cursos-description-2 {
+        font-size: 2.5vw !important;
+        font-family: 'Istok Web', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 15vw !important;
+        padding-right: 12vw !important;
+        top: 27vw !important;
+        left: 12vw !important;
+        text-align: justify !important; 
+    }
+    .cursos-description-3 {
+        font-size: 2.5vw !important;
+        font-family: 'Istok Web', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 15vw !important;
+        padding-right: 12vw !important;
+        top: 35vw !important;
+        left: 12vw !important;
+        text-align: justify !important; 
+    }
+    .curso-imagen-1 img {
+        width: 9vw !important;
+        top: 18vw !important;
+        left: 12vw !important;
+    }
+    .curso-imagen-2 img {
+        width: 9vw !important;
+        top: 28vw !important;
+        left: 12vw !important;
+    }
+    .curso-imagen-3 img {
+        width: 10vw !important;
+        top: 38vw !important;
+        left: 11.5vw !important;
+    }
+    
+}
+
 .cursos-card img {
     width: 84vw;
     height: auto;
@@ -675,6 +798,7 @@ body{
     position: absolute;
     top: 2.5vw;
     z-index: 1; 
+    
 }
 
 .cursos-description {
