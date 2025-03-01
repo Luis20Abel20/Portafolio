@@ -882,6 +882,39 @@ body{
     position: relative;  
     z-index: 0; 
 }
+
+@media (max-width: 768px) {
+    .estudios {
+        width: 100vw !important;
+        height: 50vw !important; 
+        background-position: center 50% !important;
+    }
+    .estudios-card img {
+        width: 84vw !important; 
+        height: 40vw !important; 
+        top: 8vw !important; 
+        left: 7vw !important; 
+        border-radius: 2vw !important; 
+        object-fit: fill !important; 
+    }
+    .estudios-flecha img {
+        width: 10vw !important;
+        top: 10vw !important;
+        left: 0vw !important;
+    }
+    .estudios-card-titulo {
+        font-size: 2.5vw !important; 
+        left: -1vw !important;
+        top: 12vw !important;
+    }
+    .estudios-description {
+        font-size: 2.5vw !important;
+        font-family: 'Istok Web', sans-serif !important;
+        font-weight: 400 !important;
+        top: 20vw !important;
+        left: 5vw !important;
+    }
+}
 .estudios-card img {
     width: 84vw;
     height: auto;
@@ -933,6 +966,39 @@ body{
     display: flex;  
     position: relative;  
     z-index: 0; 
+}
+
+@media (max-width: 768px) {
+    .experiencia-laboral {
+        width: 100vw !important;
+        height: 52vw !important; 
+        background-position: center 50% !important;
+    }
+    .experiencia-card img {
+        width: 84vw !important; 
+        height: 40vw !important; 
+        top: 8vw !important; 
+        left: 7vw !important; 
+        border-radius: 2vw !important; 
+        object-fit: fill !important; 
+    }
+    .experiencia-flecha img {
+        width: 10vw !important;
+        top: 10vw !important;
+        left: 0vw !important;
+    }
+    .experiencia-card-titulo {
+        font-size: 2.5vw !important; 
+        left: -1vw !important;
+        top: 12vw !important;
+    }
+    .experiencia-description {
+        font-size: 2.5vw !important;
+        font-family: 'Istok Web', sans-serif !important;
+        font-weight: 400 !important;
+        top: 20vw !important;
+        left: 5vw !important;
+    }
 }
 .experiencia-card img {
     width: 84vw;
