@@ -1,10 +1,21 @@
+//--------------------------------------------------------------------------------
+//  Para que muestre el menu del desplazamiento
 document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById("menu-toggle");
-    const menuItems = document.getElementById("menu-items");
+    const menuButton = document.getElementById("menu-desplazamiento");
+    const menuItems = document.querySelector(".menu-items");
 
-    menuToggle.addEventListener("click", function () {
+    menuButton.addEventListener("click", function () {
         menuItems.classList.toggle("show");
     });
+});
+
+
+//--------------------------------------------------------------------------------
+//  Cerrar el menu del desplazamiento fuera de 
+window.addEventListener('click', function(event) {
+    if (!event.target.matches('.menu-desplazamiento') && !event.target.closest('.menu')) {
+        menuItems.classList.remove('show');
+    }
 });
 
 //--------------------------------------------------------------------------------
@@ -22,3 +33,6 @@ document.addEventListener('click', (event) => {
         menuItems.classList.remove('show');
     }
 });
+
+
+
